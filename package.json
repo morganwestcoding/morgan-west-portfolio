@@ -1,0 +1,43 @@
+{
+  "name": "my_portfolio",
+  "version": "1.0.0",
+  "description": "Suresh Murali's Portfolio",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "deploy": "git subtree push --prefix docs origin gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sureshmurali/My-Portfolio.git"
+  },
+  "author": "Suresh Murali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sureshmurali/My-Portfolio/issues"
+  },
+  "homepage": "https://github.com/sureshmurali/My-Portfolio#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-root-import": "^6.6.0",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "parcel-bundler": "^1.8.1"
+  },
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.0",
+    "react-responsive": "^6.0.1",
+    "src": "^1.0.0",
+    "styled-components": "^4.0.3",
+    "ua-parser-js": "^0.7.19",
+    "vh-check": "^2.0.5"
+  }
+}

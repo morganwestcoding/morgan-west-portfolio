@@ -1,24 +1,25 @@
 {
+  "homepage": "http://morganwestcoding.github.io/morgan-west-portfolio",
   "name": "my_portfolio",
   "version": "1.0.0",
   "description": "Suresh Murali's Portfolio",
   "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "deploy": "git subtree push --prefix docs origin gh-pages"
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sureshmurali/My-Portfolio.git"
+    "url": "git+https://github.com/morganwestcoding/morgan-west-portfolio.git"
   },
   "author": "Suresh Murali",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sureshmurali/My-Portfolio/issues"
+    "url": "https://github.com/morganwestcoding/morgan-west-portfolio"
   },
-  "homepage": "https://github.com/sureshmurali/My-Portfolio#readme",
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "babel-plugin-root-import": "^6.6.0",
@@ -27,6 +28,7 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1",
+    "gh-pages": "^5.0.0",
     "parcel-bundler": "^1.8.1"
   },
   "dependencies": {

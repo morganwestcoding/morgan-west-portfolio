@@ -2,7 +2,7 @@
   "homepage": "http://morganwestcoding.github.io/morgan-west-portfolio/",
   "name": "my_portfolio",
   "version": "1.0.0",
-  "description": "Suresh Murali's Portfolio",
+  "description": "Morgan West's Portfolio",
   "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/morganwestcoding/morgan-west-portfolio.git"
   },
-  "author": "Suresh Murali",
+  "author": "Morgan West",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/morganwestcoding/morgan-west-portfolio"

@@ -14,7 +14,7 @@ const Container = styled.section`
 `;
 
 const Name = styled.div`
-  font-family: 'Valencia';
+  font-family: 'AvenirNext';
   text-align:center;
   padding-right: 10px;
   @media ${device.mobileS} {

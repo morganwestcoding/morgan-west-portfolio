@@ -14,7 +14,7 @@ position: absolute;
 bottom:-160vh;
 left: 0vw;
 /* border: 1px dashed red; */
-height: 80vh;
+height: 70vh;
 
 `;
 
@@ -26,10 +26,10 @@ const EnglishTab = styled.img.attrs({
 transition: transform 0.2s ease-out;
 position: absolute;
 bottom: -100vh;
-right:0.5vw;
+right:4vw;
 /* border: 1px dashed red; */
 filter: blur(0.6px);
-height: 80vh; 
+height: 75vh; 
 `;
 
 

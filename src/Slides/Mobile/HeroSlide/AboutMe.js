@@ -43,8 +43,10 @@ class AboutMe extends Component {
     return (
       <Container>
         <AboutMeDescription>
-        Visually-inclined front-end developer with a love for crafting beautiful and intuitive web applications.
-        I strongly value collaboration and teamwork to create the best digital experiences.
+        Visually-inclined front-end developer with a love
+        for crafting beautiful and intuitive web applications.
+        I strongly value collaboration and teamwork
+        to create the best digital experiences.
         </AboutMeDescription>
       </Container>
     );

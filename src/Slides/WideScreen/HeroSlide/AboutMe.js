@@ -84,8 +84,10 @@ class AboutMe extends Component {
       <Container>
         <AboutMeTitle scrollPercent={scrollPercent}>ABOUT ME</AboutMeTitle>
         <AboutMeDescription>
-        Visually-inclined front-end developer with a love for crafting beautiful and intuitive web applications.
-        I strongly value collaboration and teamwork to create the best digital experiences.
+        Visually-inclined front-end developer with a love 
+        for crafting beautiful and intuitive web applications.
+        I strongly value collaboration and teamwork to create 
+        the best digital experiences.
         </AboutMeDescription>
       </Container>
     );

@@ -13,9 +13,9 @@ const Restaurant = styled.img.attrs({
 transition: transform 0.2s ease-out;
 position: absolute;
 bottom: -90vh;
-left:0vw;
+left:2vw;
 /* border: 1px dashed red; */
-height: 80vh; 
+height: 77vh; 
 `;
 
 const Home = styled.img.attrs({
@@ -26,9 +26,9 @@ const Home = styled.img.attrs({
 transition: transform 0.2s ease-out;
 position: absolute;
 bottom:-45vh;
-right: 2vw;
+right: 6vw;
 /* border: 1px dashed red; */
-height: 80vh;
+height: 77vh;
 filter: blur(0.6px);
 `;
 
@@ -38,26 +38,12 @@ const AddFood = styled.img.attrs({
   }),
 })`
 transition: transform 0.2s ease-out;
-bottom:-85vh;
-left:2vw;
+bottom:-88vh;
+left:-5vw;
 position: absolute;
 /* border: 1px dashed red; */
-height: 80vh;
+height: 78vh;
 filter: blur(0.2px);
-`;
-
-const AddRestaurant = styled.img.attrs({
-  style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 2}%) scale(0.6)`,
-  }),
-})`
-transition: transform 0.2s ease-out;
-bottom:-55vh;
-right: 5vw;
-position: absolute;
-/* border: 1px dashed red; */
-height: 80vh;
-filter: blur(1.2px);
 `;
 
 class WhatsMyFoodImages extends Component {

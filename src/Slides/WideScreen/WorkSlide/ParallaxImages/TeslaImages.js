@@ -16,7 +16,7 @@ position: absolute;
 bottom: -90vh;
 left:0vw;
 /* border: 1px dashed red; */
-height: 80vh; 
+height: 70vh; 
 `;
 
 const Tyre = styled.img.attrs({
@@ -27,9 +27,9 @@ const Tyre = styled.img.attrs({
 transition: transform 0.2s ease-out;
 position: absolute;
 bottom:-45vh;
-right: 2vw;
+right: 4vw;
 /* border: 1px dashed red; */
-height: 80vh;
+height: 75vh;
 filter: blur(0.6px);
 `;
 
@@ -40,10 +40,10 @@ const Battery = styled.img.attrs({
 })`
 transition: transform 0.2s ease-out;
 bottom:-85vh;
-left:2vw;
+left:-2vw;
 position: absolute;
 /* border: 1px dashed red; */
-height: 80vh;
+height: 75vh;
 filter: blur(0.8px);
 `;
 

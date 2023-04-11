@@ -15,7 +15,7 @@ position: absolute;
 bottom:-65vh;
 left: 0vw;
 /* border: 1px dashed red; */
-height: 80vh;
+height: 70vh;
 `;
 
 const Tablet = styled.img.attrs({
@@ -26,9 +26,9 @@ const Tablet = styled.img.attrs({
 transition: transform 0.2s ease-out;
 position: absolute;
 bottom: -17vh;
-right:0vw;
+right:5vw;
 /* border: 1px dashed red; */
-height: 80vh; 
+height: 70vh; 
 filter: blur(0.6px);
 `;
 

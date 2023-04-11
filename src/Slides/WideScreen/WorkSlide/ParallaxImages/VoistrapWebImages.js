@@ -25,11 +25,11 @@ const Paths = styled.img.attrs({
   }),
 })`
 bottom: 0vh;
-right: 3vw;
+right: 5vw;
 transform-origin: right center;
 position: absolute;
 /* border: 1px dashed red; */
-height: 50vh;
+height: 45vh;
 filter: blur(0.2px);
 `;
 

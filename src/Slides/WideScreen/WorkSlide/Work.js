@@ -33,7 +33,7 @@ class Work extends Component {
         projectName: 'Elements',
         projectDesc: '2 Player game designed to showcase a battle amongst the four elements.',
         projectType: 'WEB APP',
-        roles: ['HTML / Javascript'],
+        roles: ['HTML', 'Javascript'],
       },
       {
         number: '#2',
